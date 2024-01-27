@@ -8,15 +8,62 @@
 </head>
 <body>
     <!-- this dive tag lets me create assign a class to be used in my css code -->
-   <div class="container">
+   <!-- <div class="container"> -->
+    <!-- Nav bar -->
+    <!-- The class tag lets me name elements so I can target them specifically in css  -->
     <nav class="navbar">
         <ul class="nav-list">
-            <li><a href="Home"></a></li>
-            <li><a href="About"></a></li>
-            <li><a href="Portfolio"></a></li>
-            <li><a href="Contact"></a></li>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Portfolio">Portfolio</a></li>
+            <li><a href="#Contact">Contact</a></li>
         </ul>
     </nav>
+    <!--    The id tag helps identify when linking elements
+    The id tag also must be unique to the entire document -->
+    <header class="landing" id="Home">
+        <h1>Welcome To My Website</h1>
+        <p>I Made this all by myself :)</p>
+    </header>
+    <!-- Main Section of website -->
+    <main>
+        <section class="main-content" id="About">
+        <h1>About Me</h1>
+        <body>
+            Hello My name is Librado Islas and this is my first time using css styling on a website!
+        <h2>Here are some things I like</h2>
+        <ul>
+            <li>I like to watch/read anime</li>
+            <li>I Like to draw</li>
+            <li>I also like to play video games</li>
+        </ul>
+        <h1>Some goals i set for myself</h1>
+        I want to get my certification for front and back-end coding by the end of the year. I also want to use the knowledge i gain from the couses to hopfully create some kind of game or something similar to it. I want to make a very good looking website to put my portfolio filled with a bunch of projects and get a job in this field.
+        </body>
+        <section><h1>Here is something I made</h1></section>
+        <img src="https://cdn.discordapp.com/attachments/829161970363400243/1193885450998394962/image.png?ex=65c0cc78&is=65ae5778&hm=75216668fbf4bd5761388c851d8633e7943f0894ea4feb90daffe6e3ba1f1e65&" alt="">
+    </section>
+    <!-- Portfolio -->
+    <section class="main-content" id="Portfolio">
+        <h1>My Portfolio</h1>
+        <p>Hm... seems pretty empty for now</p>
+    </section>
+    <!-- Contact -->
+    <section class="main-content" id="Contact">
+        <h1>Contact Me</h1>
+        <h3>Contact Information</h3>
+        <h3>
+        <ul>
+            <li>Email: Libradoislas72@gmail.com</li>
+            <li>Phone: (702)456-789</li>
+        </ul>
+    </h3>
+    </section>
+    </main>
+    <!-- Footer usually has information about the copyright date, who wrote the section, or links to related websites. -->
+    <footer class="footer">
+        <p>© 2024 Website Design</p>
+    </footer>
    </div>
 </body>
 </html>
