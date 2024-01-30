@@ -1,0 +1,51 @@
+
+
+/* used this to quickly change the background color from white to grey */
+body{
+    background-color: grey;
+}
+
+
+
+
+.landing{
+    /* margin-top is the distance from the top of the page */
+    margin-top: 0vh;
+    height: 100vh;
+    border: 0px solid black;
+    /* This is how you add background images in css */
+    background-image: url(https://www.thewowstyle.com/wp-content/uploads/2015/02/6966828-beautiful-mountain-lakes.jpg);
+    background-size: cover;
+    text-align: center;
+    padding: 100PX 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: yellow;
+}
+
+/* container for the grid from bootstarp */
+.container{
+    margin-top: 10vh;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Form */
+.mb-3{
+    color: white;
+    margin-top: 5vh;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.table{
+    color: white;
+    margin-top: 10vh;
+}
